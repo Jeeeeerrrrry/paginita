@@ -1,0 +1,85 @@
+body {
+  height: 1500px;
+  margin: 0px;
+}
+
+nav {
+  background: #777777;
+  height: 20%;
+  display: flex;
+}
+
+.imagen-nav  {
+    position: absolute;
+    left:  50px;
+    top: 20px;
+    width: 100px;
+}
+
+.navegar  {
+    position: absolute;
+    right:  10px;
+    top: 50px;
+}
+
+.cuerpo {
+  height: 70%;
+}
+
+.inicio {
+    display: inline-block;
+    /* background: ; */
+    margin: 0 50px;
+    
+}
+
+.hiper:hover {
+    color: red;
+}
+
+.contacto {
+    display: inline-block;
+    margin: 0 50px;
+}
+
+.somos {
+    display: inline-block;
+    margin: 0;
+}
+
+.columna-1 {
+  display: inline-block;
+  text-align: center;
+  width: 25%;
+  height: 100%;
+  /* vertical-align: middle; */
+  background: #aaaaaa;
+}
+
+.columna-2 {
+  display: inline-block;
+  text-align: center;
+  /* vertical-align: middle; */
+  height: 100%;
+  width: 50%;
+  background: #888aaa;
+}
+
+.texto {
+    vertical-align: middle:
+}
+
+.columna-3 {
+  display: inline-block;
+  text-align: center;
+  /* vertical-align: middle; */
+  height: 100%;
+  width: 24%;
+}
+
+footer {
+  text-align: center;
+  vertical-align: middle;
+  height: 10%;
+  background: #aaaa;
+}
