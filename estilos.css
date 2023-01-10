@@ -73,34 +73,22 @@ nav a {
   height: 50%;
 }
 
-.columna-1 {
+.columna {
   display: flex;
   align-items: center;
   flex-direction: column;
   padding: 0 1em;
   width: 25%;
   height: 100%;
-  background: #aaaaaa;
+  background: #cccccc;
+  transition: width .3s ease-in-out;
+  overflow: hidden;
+  cursor: pointer;
+  border: #000000 1px solid;
 }
 
-.columna-2 {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding: 0 1em;
+.columna.activa {
   width: 50%;
-  height: 100%;
-  background: #4545;
-}
-
-.columna-3 {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding: 0 1em;
-  width: 25%;
-  height: 100%;
-  background: #aaaaaa;
 }
 
 .cuerpo-quienes-somos {
@@ -158,3 +146,4 @@ nav a {
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
 }
+
