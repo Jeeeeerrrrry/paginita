@@ -9,49 +9,46 @@
   </head>
   <body>
     <nav>
-      <img
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/2048px-LEGO_logo.svg.png"
-        alt="random"
-        class="imagen-nav"
-        width="10%"
-      />
+      <div class="div-imagen-del-nav">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/2048px-LEGO_logo.svg.png" alt="random" class="imagen-nav" width="10%" >
+      </div>
+      
       <div class="navegar">
         <div class="inicio">
-          <a href="./index.html" class="inicio">Inicio</a>
+          <a href="index.html" class="hiper">Inicio</a>
         </div>
         <div class="somos">
-          <a href="./somos.html" class="somos">Quienes somos?</a>
+          <a href="somos.html" class="hiper">Quienes somos?</a>
         </div>
         <div class="contacto">
-          <a href="./contacto.html" class="contacto">Contacto</a>
+          <a href="contacto.html" class="hiper">Contacto</a>
         </div>
       </div>
     </nav>
 
-    <div class="cuerpo">
-      <form
-        action="exito.html"
-        method="post"
-        style="text-align: center; margin: 50px"
-      >
-        FORMULARIO PARA ENVIAR TU INFORMACION <br />
+    <div class="cuerpo-contacto">
+      <form action="exito.html" method="post" style="text-align: center; margin: 50px">
+        <h1>FORMULARIO PARA ENVIAR TU INFORMACION</h1> <br />
         <br />
-        <label for="nombre">Nombre </label>
-        <input type="text" name="nombre" /> <br />
+        <label for="nombre">Nombre    </label>
+        <input type="text" name="nombre" id="nombre" placeholder="Ejemplo: Juanito Banana Perez Ibarra" size="40"/> <br />
         <br />
         <label for="correo">Correo </label>
-        <input type="text" name="correo" /> <br />
+        <input type="text" name="correo" id="correo" required placeholder="Ejemplo: carlitos@gmail.com" size="50"/> <br />
         <br />
-        <label for="nombre">Descripcion </label>
-        <input type="text" name="nombre" /> <br />
+        <label for="descripcion">Descripcion</label> <br>
+        <br>
+        <textarea name="descripcion" id="descripcion" cols="30" rows="10" placeholder="Aqui coloca una breve descripcion de la informacion que quieres que te enviemos  :)"></textarea>
         <br />
-        <input type="submit" value="Enviar" onclick="" />
+        <input type="submit" value="Enviar"/>
       </form>
     </div>
 
     <footer>
       <br />
-      <div class="logo-footer"></div>
+      <div class="logo-footer">
+        <img src="https://www.paredro.com/wp-content/uploads/2017/09/logo-lego.jpg" alt="logo-de-lego">
+      </div>
       <div class="copyright">Derechos reservados - 2023</div>
     </footer>
   </body>

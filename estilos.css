@@ -1,22 +1,24 @@
 body {
   height: 1500px;
   margin: 0px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 nav {                         /* Padre */
-  background: #777777;
+  background: linear-gradient(90deg, rgb(9, 6, 57) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   height: 25%;
   display: flex;
 }
 
 nav a {
   text-decoration: none;
-  color: #000;
-  font-size: 1.4em;
+  color: #FCCAAF;
+  font-weight: bold;
+  font-size: 1.8em;
 }
 
 .hiper:hover {
-  color: #555555;
+  color: #000000;
 }
 
 .div-imagen-del-nav {
@@ -33,8 +35,8 @@ nav a {
     top: 20px;
     width: 100px; */
     /* display: inline-block; */
-    height: 40%;
-    width: 30%;
+    height: 45%;
+    width: 35%;
 }
 
 .navegar  {
@@ -64,51 +66,95 @@ nav a {
     margin: 0;
 }
 
-.cuerpo {                               /* Padre */
+.cuerpo {                  /* Padre */
+  display: flex;                       
+  flex-direction: row;
+  align-items: center;
   height: 50%;
 }
 
 .columna-1 {
-  display: inline-block;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 1em;
   width: 25%;
   height: 100%;
-  /* vertical-align: middle; */
   background: #aaaaaa;
 }
 
 .columna-2 {
-  display: inline-block;
-  text-align: center;
-  /* vertical-align: middle; */
-  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 1em;
   width: 50%;
-  background: #888aaa;
-}
-
-.texto {
-    vertical-align: middle;
+  height: 100%;
+  background: #4545;
 }
 
 .columna-3 {
-  display: inline-block;
-  text-align: center;
-  /* vertical-align: middle; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 1em;
+  width: 25%;
   height: 100%;
-  width: 24%;
+  background: #aaaaaa;
 }
+
+.cuerpo-quienes-somos {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  /* background: #aaaaaa; */
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+.cuerpo-quienes-somos h1 {
+  font-size: 1.8em;
+  margin: 50px 0;
+  /* background: #aaaaaa; */
+}
+
+
+.cuerpo-quienes-somos p {
+  padding: 0 20px;
+  font-size: 1.5em;
+}
+
+
+.cuerpo-contacto {                      /* Padre */
+  display: flex;                       
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 50%;
+  /* background-image: linear-gradient(to right, #fffbd5, #b20a2c); */
+  background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
+
+}
+
+.cuerpo-contacto label, input {
+  margin: 20px 0;
+}
+
 
  footer {                                        /* Padre */
   text-align: center;
-  vertical-align: middle;
   height: 25%;
 }
 
 .logo-footer img {
+  /* border: #000000 1px solid; */
   width: 30%;
-  height: 1%;
+  height: 100%;
 }
 
 .copyright {
+  /* border: #000000 1px solid; */
   font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
 }
